@@ -1,0 +1,53 @@
+@media (max-width: 73.5em) {
+  .range-info {
+    width: 70%;
+  }
+}
+@media (max-width: 56.5em) {
+  .range-info {
+    width: 85%;
+  }
+  .range-info p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 40em) {
+  body {
+    background-color: #37b24d;
+    background-image: none;
+  }
+  .bmi-level {
+    padding-bottom: 15rem;
+  }
+  .bmi-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 3rem 4rem;
+  }
+  .bmi-field {
+    width: 100%;
+    padding-right: 0;
+  }
+  .bmi-info {
+    width: 100%;
+  }
+  .range-info {
+    width: 95%;
+    top: 60%;
+  }
+  .close {
+    left: 92%;
+  }
+}
+
+@media (max-width: 28.2em) {
+  html {
+    font-size: 55%;
+  }
+  .heading-main {
+    font-size: 4rem;
+  }
+}

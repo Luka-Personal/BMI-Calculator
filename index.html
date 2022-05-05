@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI &mdash; Calculator</title>
+    <meta property="og:image" content="img/main.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bmi-luka-calc.netlify.app/" />
+    <meta property="og:title" content="Find your BMI" />
+    <meta property="og:description" content="Easily calculate your BMI" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+    <link rel="manifest" href="/manifest/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
+    <link rel="icon" href="img/logo.png" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading-main">BMI Calculator <ion-icon name="fitness-outline" class="fitness icon"></ion-icon></h1>
+    </header>
+    <main>
+      <section class="bmi-calculator">
+        <p>Your BMI is:</p>
+        <p class="result">0</p>
+        <div class="bmi-main">
+          <div class="bmi-field">
+            <label for="cm">CM / HEIGHT</label>
+            <input type="number" placeholder="Height" class="height-field field" name="cm" />
+            <label for="kg">KG / WEIGHT</label>
+            <input type="number" placeholder="Weight" class="weight-field field" name="kg" />
+            <button class="calculate-btn btn">Calculate</button>
+            <button class="range-btn btn">Range info</button>
+          </div>
+          <span class="bmi-info">
+            BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. It is
+            widely used as a general indicator of whether a person has a healthy body weight for their height. Specifically, the value obtained from
+            the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range
+            the value falls between
+          </span>
+        </div>
+        <div class="range-info">
+          <ion-icon name="close-outline" class="close"></ion-icon>
+          <p>BMI Categories:</p>
+          <p>Underweight = <18.5</p>
+          <p>Normal weight = 18.5–24.9</p>
+          <p>Overweight = 25–29.9</p>
+          <p>Obesity = BMI of 30 or greater</p>
+        </div>
+        <div class="scale">
+          <div class="bmi-level"><ion-icon name="arrow-down-outline" class="arrow-icon"></ion-icon></div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/script.js"></script>
+</html>
