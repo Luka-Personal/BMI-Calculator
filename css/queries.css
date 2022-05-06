@@ -12,13 +12,6 @@
   }
 }
 @media (max-width: 40em) {
-  body {
-    background-color: #37b24d;
-    background-image: none;
-  }
-  .bmi-level {
-    padding-bottom: 15rem;
-  }
   .bmi-main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
