@@ -3,7 +3,7 @@ Want to find out your friends? you are in right hands, enter your weight and hei
 
 P.S my js is better each day
 
-Date Finished 5/6/2022 - Слава Украине!
+Date Finished 5/6/2022 - Слава Україні!
 
 Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
