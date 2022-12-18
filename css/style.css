@@ -134,15 +134,7 @@ p {
   margin-top: 8rem;
   height: 5rem;
   background-image: -o-linear-gradient(left, red 18.5%, green 24.9%, orange 29.9%, red);
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(18.5%, red),
-    color-stop(24.9%, green),
-    color-stop(29.9%, orange),
-    to(red)
-  );
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(18.5%, red), color-stop(24.9%, green), color-stop(29.9%, orange), to(red));
   background-image: linear-gradient(90deg, red 18.5%, green 24.9%, orange 29.9%, red);
   position: relative;
   border-radius: 1rem;
@@ -154,6 +146,7 @@ p {
   position: absolute;
   z-index: 1;
   padding-bottom: 15rem;
+  transform: translateX(-50%);
 }
 .arrow-icon {
   width: 3rem;
