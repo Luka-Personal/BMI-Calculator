@@ -20,7 +20,7 @@ const removeRange = function () {
   rangeInfo.style.display = `none`;
   bmiMain.classList.remove(`filter`);
 };
-const calcFunction = function (): void {
+const calcFunction = function () {
   if (!weight.value || !height.value) return;
   const BMI = Math.round(caclBMI(+weight.value, +height.value));
   bmiResult.textContent = BMI.toString();
