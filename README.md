@@ -1,6 +1,6 @@
 # Body Mass Index (BMI) Calculator
 
-A web application that allows users to calculate their Body Mass Index (BMI) using their height and weight.
+A web application that allows users to calculate their Body Mass Index (BMI) using their height and weight, To use the website without downloads or cloning, simply open the link in your browser. 
 
 ## Features
 - Calculate BMI using metric units
@@ -20,3 +20,6 @@ A web application that allows users to calculate their Body Mass Index (BMI) usi
 
 ## Author
 - Luka Tsinaridze - [Luka](https://github.com/Luka-Personal)
+
+## Link
+- https://bmi-luka-calc.netlify.app
