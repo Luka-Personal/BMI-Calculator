@@ -1,6 +1,6 @@
 # Body Mass Index (BMI) Calculator
 
-A web application that allows users to calculate their Body Mass Index (BMI) using their height and weight. The application is built using TypeScript and the npm package manager.
+A web application that allows users to calculate their Body Mass Index (BMI) using their height and weight.
 
 ## Features
 - Calculate BMI using metric units
