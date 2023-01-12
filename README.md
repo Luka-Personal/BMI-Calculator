@@ -1,19 +1,23 @@
-# BMI-Calculator
-Want to find out your friends? you are in right hands, enter your weight and height and calculate your BMI
+# Body Mass Index (BMI) Calculator
 
-P.S my js is better each day
+A web application that allows users to calculate their Body Mass Index (BMI) using their height and weight. The application is built using TypeScript and the npm package manager.
 
-Date Finished 5/6/2022 - Слава Украине!
+## Features
+- Calculate BMI using metric or imperial units
+- Display the user's BMI and the corresponding weight category
+- Option to save the user's data
 
-Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
+## Getting Started
+1. Clone the repository by running `git clone https://github.com/Luka-Personal/BMI-Calculator.git`
+2. Run npm install to install the dependencies
+3. Run npx tsc -w, to compile Typescript code to Javascript
+3. Run npm start to start the development server
+4. Access the application at http://localhost:1234
+5. Or you can run the command `npm run build` for production ready build
 
-W E B S I T E -- P H O T O S
+## Built With
+- HTML, CSS
+- TypeScript/Javascript
 
-MAIN PAGE ↓
-![main](https://user-images.githubusercontent.com/100978682/167045159-b6cf8246-0d15-4216-bd1a-74ad1d441459.png)
-CALCULATED BMI ↓
-![calc-bmi](https://user-images.githubusercontent.com/100978682/167045173-00547d97-7ff1-4348-84ee-138a2dc66960.png)
-BMI CATEGORIES ↓
-![bmi-info](https://user-images.githubusercontent.com/100978682/167045189-cb4e01e6-d519-409c-b1ba-59b3f62a8b17.png)
-
-LINK: https://bmi-luka-calc.netlify.app/
+## Author
+- Luka Tsinaridze - [Luka](https://github.com/Luka-Personal)
