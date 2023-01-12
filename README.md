@@ -3,9 +3,8 @@
 A web application that allows users to calculate their Body Mass Index (BMI) using their height and weight. The application is built using TypeScript and the npm package manager.
 
 ## Features
-- Calculate BMI using metric or imperial units
+- Calculate BMI using metric units
 - Display the user's BMI and the corresponding weight category
-- Option to save the user's data
 
 ## Getting Started
 1. Clone the repository by running `git clone https://github.com/Luka-Personal/BMI-Calculator.git`
